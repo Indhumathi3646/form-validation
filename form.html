@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="./location.js" defer></script> -->
+<script src="./form.js"  defer></script>
+  <link rel="stylesheet" href="form.css">
+
+
+</head>
+<body>
+<div id="form">
+  <h1>FORM VALIDATION</h1>
+  <form onsubmit="return submitform(event)">
+    <label for="name">Name:</label>
+    <input type="text"  id="name"> <br> <br> 
+    <p id="ername">Enter the vaild name</p>
+    <label for="email">Email:</label>
+    <input type="email" id="email" ><br><br>
+    <p id="ename">The Email includes @gmail.com</p>
+    <label for="password">Password:</label>
+    <input type="password" id="passkey"><br><br>
+    <p id="pass">The password must contain atleast 8 characters</p>
+    <label for="password">Confrim Password:</label>
+    <input type="password" id="passkey1"><br><br>
+    <p id="confrim">The password is not matched</p>
+    <label for="number">Ph.Number:</label>
+    <input type="number" id="phone"><br><br>
+    <p id="num">The number must have only 10 digits</p>
+   <input type="submit" id="submit"> 
+  </form>
+  </div>
+
+</body>
+</html>
